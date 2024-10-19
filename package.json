@@ -1,0 +1,25 @@
+{
+  "name": "holiday-group-bot",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/anreszii/holiday-group-bot.git",
+  "author": "Andrew <101003794+anreszii@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/cron": "^2.4.0",
+    "@types/node": "^22.7.7",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
